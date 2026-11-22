@@ -75,7 +75,7 @@ pip install numpy tensorflow scikit-learn pillow opencv-python
 
 ### 4. 准备数据集
 
-确保项目目录下存在以下文件：
+确保项目目录下存在以下文件（仓库已包含，无需另行准备）：
 - `X.npy` - 图像数据，形状为 `(样本数, 高度, 宽度)` 或 `(样本数, 高度, 宽度, 通道)`
 - `Y.npy` - 标签数据，可以是数值标签或 one-hot 编码
 
@@ -116,8 +116,8 @@ SighLanguageDigitRecognition/
 ├── main.py                 # 主程序（模型训练、图片预测）
 ├── camera_recognition.py   # 摄像头实时识别模块
 ├── README.md              # 项目说明文档
-├── X.npy                  # 训练图像数据（需自行准备）
-├── Y.npy                  # 训练标签数据（需自行准备）
+├── X.npy                  # 训练图像数据（已包含）
+├── Y.npy                  # 训练标签数据（已包含）
 ├── best_model.keras       # 训练好的模型（运行 main.py 后生成）
 └── .venv/                 # Python 虚拟环境（可选）
 ```
